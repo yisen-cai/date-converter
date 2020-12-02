@@ -7,8 +7,8 @@ include_directories(${Boost_INCLUDES_DIRS})
 add_executable(
         Boost_Tests_run
 
-        tests/test_convertor.cpp
-        tests/test_date_convertor.cpp
+        tests/test_date_converter.cpp
+        tests/test_absolute_date.cpp
 )
 
 target_link_libraries(

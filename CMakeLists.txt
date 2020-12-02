@@ -12,6 +12,8 @@ include_directories(date_converter_lib)
 add_subdirectory(date_converter_lib)
 add_subdirectory(google_tests)
 add_subdirectory(boost_tests)
+add_subdirectory(catch_tests)
+add_subdirectory(doctest_tests)
 
 target_link_libraries(DateConverter_run DateConverter_lib)
 
